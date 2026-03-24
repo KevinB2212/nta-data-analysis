@@ -1,0 +1,51 @@
+# Python
+__pycache__/
+*.py[cod]
+*.egg-info/
+*.egg
+dist/
+build/
+venv/
+.venv/
+
+# Environment
+.env
+.env.local
+
+# IDE
+.vscode/
+.idea/
+*.swp
+*.swo
+
+# OS
+.DS_Store
+Thumbs.db
+nul
+
+# Data files
+*.zip
+*.csv.gz
+
+# Temp files
+tmp_*
+*.tmp
+
+# Logs
+logs/
+
+# Node
+node_modules/
+
+# Word temp files
+~$*
+
+# Claude
+.claude/
+CLAUDE.md
+
+# Large data files excluded from GitHub (available in GitLab)
+code/data/
+code/db/
+code/logs/
+*.sql

@@ -1,0 +1,13 @@
+# API dependencies
+fastapi>=0.109.0
+uvicorn[standard]>=0.27.0
+python-dotenv>=1.0.0
+sqlalchemy>=2.0.0
+psycopg[binary]>=3.1.0
+
+# Ingestion dependencies
+requests>=2.31.0
+beautifulsoup4>=4.12.0
+
+# Database migrations
+alembic>=1.13.0
